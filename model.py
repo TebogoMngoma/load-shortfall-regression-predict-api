@@ -56,16 +56,17 @@ def _preprocess_data(data):
     # The code below is for demonstration purposes only. You will not
     # receive marks for submitting this code in an unchanged state.
     # ---------------------------------------------------------------
-    for column in feature_vector_df:
-        with_nulls = feature_vector_df[column].isna().sum()
-        if with_nulls >0:
-            feature_vector_df = feature_vector_df.drop(column,axis=1)
-        else:
-            if column not in feature_vector_df.select_dtypes(include='number').columns:
-                feature_vector_df = feature_vector_df.drop(column,index=1)
+    
 
 
     # ----------- Replace this code with your own preprocessing steps --------
+    for column in feature_vector_df:
+        with_nulls = feature_vector_df[column].isna().sum()
+        if with_nulls > 0 :
+            feature_vector_df = feature_vector_df.drop(column,axis=1)
+        else:
+            if column not in feature_vector_df.select_dtypes(include='number').columns:
+                feature_vector_df = feature_vector_df.drop(column,axis=1)
     predict_vector = feature_vector_df
     # ------------------------------------------------------------------------
 
