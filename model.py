@@ -71,7 +71,7 @@ def _preprocess_data(data):
        'Barcelona_rain_3h', 'Valencia_snow_3h', 'Madrid_weather_id',
        'Barcelona_weather_id', 'Bilbao_pressure', 'Seville_weather_id',
        'Valencia_pressure', 'Seville_temp_max', 'Bilbao_weather_id', 
-        'Valencia_humidity', 'Year', 'Month', 'Day','Hour']]
+        'Valencia_humidity']]
     # ------------------------------------------------------------------------
 
     return predict_vector
