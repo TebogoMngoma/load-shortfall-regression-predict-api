@@ -31,7 +31,7 @@ X_train = train[['Madrid_wind_speed', 'Valencia_wind_deg', 'Bilbao_rain_1h',
         'Valencia_humidity', 'Year', 'Month', 'Day','Hour']]
 
 # Fit model
-lm = LinearRegression(normalize=True)
+lm = LinearRegression()
 print ("Training Model...")
 lm.fit(X_train, y_train)
 
