@@ -65,12 +65,9 @@ def _preprocess_data(data):
        'Valencia_wind_speed', 'Seville_humidity', 'Madrid_humidity',
        'Bilbao_clouds_all', 'Bilbao_wind_speed', 'Seville_clouds_all',
        'Bilbao_wind_deg', 'Barcelona_wind_speed', 'Barcelona_wind_deg',
-       'Madrid_clouds_all', 'Seville_wind_speed', 'Barcelona_rain_1h', 'Seville_rain_1h', 'Bilbao_snow_3h',
-       'Barcelona_pressure', 'Madrid_rain_1h',
-       'Barcelona_rain_3h', 'Valencia_snow_3h', 'Madrid_weather_id',
-       'Barcelona_weather_id', 'Bilbao_pressure', 'Seville_weather_id',
-       'Valencia_pressure', 'Seville_temp_max', 'Bilbao_weather_id', 
-        'Valencia_humidity']]
+       'Madrid_clouds_all', 'Seville_wind_speed', 'Barcelona_rain_1h', 'Seville_rain_1h', 'Bilbao_snow_3h','Barcelona_pressure', 'Madrid_rain_1h',
+       'Barcelona_rain_3h', 'Valencia_snow_3h', 'Madrid_weather_id','Bilbao_pressure', 'Seville_weather_id',
+       'Valencia_pressure', 'Seville_temp_max', 'Bilbao_weather_id','Valencia_humidity']]
     # ------------------------------------------------------------------------
 
     return predict_vector
